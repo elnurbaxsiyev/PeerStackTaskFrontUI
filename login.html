@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Login</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <main class="main-layout">
+    <section class="left-side">
+      <div class="auth-box">
+        <h1>Welcome back!</h1>
+        <p class="auth-desc">Enter your Credentials to access your account</p>
+
+        <form action="#">
+          <div class="rowinp">
+            <label for="email">Email address</label>
+            <input id="email" type="email" placeholder="Enter your email" >
+          </div>
+
+          <div class="rowinp">
+            <div class="label-row">
+              <label for="password">Password</label>
+              <a href="#"  class="forgot-link">forgot password</a>
+            </div>
+            <input id="password" type="password" placeholder="Enter your password" >
+          </div>
+
+          <div class="check">
+            <div class="check-left">
+              <input type="checkbox" id="remember" >
+              <label for="remember">Remember for 30 days</label>
+            </div>
+          </div>
+
+          <button type="submit" class="btn btn-primary">Login</button>
+        </form>
+
+        <div class="ordivider">
+          <span>Or</span>
+        </div>
+
+        <div class="oauth">
+          <button class="btn btn-solid" type="button">
+            <img src="googleIcon.svg" alt="Google" >
+            <span>Sign in with Google</span>
+          </button>
+
+          <button class="btn btn-solid" type="button">
+            <img src="appleIcon.svg" alt="Apple" >
+            <span>Sign in with Apple</span>
+          </button>
+        </div>
+
+        <p class="signin-text">
+          Don’t have an account? <a href="register.html">Sign Up</a>
+        </p>
+      </div>
+    </section>
+
+    <aside class="right-side">
+      <img src="base.jpg" alt="leaf image" >
+    </aside>
+  </main>
+</body>
+</html>
